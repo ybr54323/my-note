@@ -4,14 +4,18 @@ module.exports = {
   themeConfig: {
     nav: [
       {text: 'c', link: '/c/'},
-      {text: 'linux', link: '/linux/'}
+      {text: 'linux', link: '/linux/'},
+      {text: 'vim', link: '/vim/'},
+      {text: 'windows', link: '/windows/'}
     ],
     sidebar: {
       '/c/': [
-        ['问题汇总', '问题汇总']
       ],
-      '/linux': [
-        ['', '记录']
+      '/linux/': [
+      ],
+      '/vim/': [
+      ],
+      '/windows/': [
       ]
     },
     sidebarDepth: 3
