@@ -1,6 +1,6 @@
 module.exports = {
-  title: '合伙人文档中心',  // 设置网站标题
-  description: '合伙人文档中心',
+  title: 'ybr-note',  // 设置网站标题
+  description: 'ybr-note',
   themeConfig: {
     nav: [
       {text: 'c', link: '/c/'},
