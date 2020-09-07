@@ -8,7 +8,6 @@ module.exports = {
     ],
     sidebar: {
       '/c/': [
-        ['', '介绍'],
         ['问题汇总', '问题汇总']
       ],
       '/linux': [
