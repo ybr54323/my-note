@@ -54,7 +54,9 @@ ftp>
     scp -r C:\Program Files(x86)\users\test.txt codinglog@192.168.0.101:/var/www/
     ```
  
-  
+## Windows中是否有代替Linux中cat的命令
+这个指令其实就是type
+
  
 
 

@@ -6,17 +6,20 @@ module.exports = {
       {text: 'c', link: '/c/'},
       {text: 'linux', link: '/linux/'},
       {text: 'vim', link: '/vim/'},
-      {text: 'windows', link: '/windows/'}
+      {text: 'windows', link: '/windows/'},
+      {text: 'JavaScript', link: '/JavaScript/'},
+      {text: 'plugin', link: '/plugin/'}
     ],
     sidebar: {
-      '/c/': [
+      '/c/': [],
+      '/linux/': [],
+      '/vim/': [],
+      '/windows/': [],
+      '/JavaScript/': [
+        ['', 'JavaScript'],
+        ['npm', 'npm']
       ],
-      '/linux/': [
-      ],
-      '/vim/': [
-      ],
-      '/windows/': [
-      ]
+      '/plugin/': [],
     },
     sidebarDepth: 3
   }
