@@ -2,3 +2,5 @@
 # [linux](/linux/)
 # [vim](/vim/)
 # [windows](/windows/)
+# [JavaScript](/JavaScript/)
+# [plugin](/plugin/)
