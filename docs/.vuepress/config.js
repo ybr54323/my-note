@@ -8,7 +8,8 @@ module.exports = {
       {text: 'vim', link: '/vim/'},
       {text: 'windows', link: '/windows/'},
       {text: 'JavaScript', link: '/JavaScript/'},
-      {text: 'plugin', link: '/plugin/'}
+      {text: 'plugin', link: '/plugin/'},
+      {text: '小程序', link: '/小程序/'}
     ],
     sidebar: {
       '/c/': [],
@@ -20,6 +21,7 @@ module.exports = {
         ['npm', 'npm']
       ],
       '/plugin/': [],
+      '/小程序/': []
     },
     sidebarDepth: 3
   }

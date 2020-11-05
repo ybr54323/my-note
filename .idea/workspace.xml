@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2007b796-fd15-49b8-9008-0fb4ef05de76" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-note.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/c/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/canvas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/小程序/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/ansi-html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
@@ -17501,6 +17492,9 @@
       <change afterPath="$PROJECT_DIR$/node_modules/zepto/src/stack.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/zepto/src/touch.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/zepto/src/zepto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/JavaScript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/JavaScript/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17511,8 +17505,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -17531,7 +17525,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/b.json" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -17548,8 +17544,18 @@
       <workItem from="1600088083072" duration="18000" />
       <workItem from="1600088121904" duration="1408000" />
       <workItem from="1603717346125" duration="1974000" />
-      <workItem from="1604240187024" duration="2256000" />
+      <workItem from="1604240187024" duration="2376000" />
+      <workItem from="1604497216542" duration="1281000" />
+      <workItem from="1604581842619" duration="722000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1604494554597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604494554597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -17565,16 +17571,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="174" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600088987555">
       <screen x="0" y="23" width="1344" height="817" />
     </state>
     <state x="360" y="174" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1344.817@0.23.1344.817" timestamp="1600088987555" />
-    <state x="233" y="23" key="CommitChangelistDialog2" timestamp="1604494439762">
+    <state x="233" y="23" key="CommitChangelistDialog2" timestamp="1604494575544">
       <screen x="0" y="23" width="1344" height="817" />
     </state>
-    <state x="233" y="23" key="CommitChangelistDialog2/0.23.1344.817@0.23.1344.817" timestamp="1604494439762" />
+    <state x="233" y="23" key="CommitChangelistDialog2/0.23.1344.817@0.23.1344.817" timestamp="1604494575544" />
+    <state x="100" y="123" width="1244" height="717" maximized="true" key="DiffContextDialog" timestamp="1604499985152">
+      <screen x="0" y="23" width="1344" height="817" />
+    </state>
+    <state x="100" y="123" width="1244" height="717" maximized="true" key="DiffContextDialog/0.23.1344.817@0.23.1344.817" timestamp="1604499985152" />
     <state width="1323" height="211" key="GridCell.Tab.0.bottom" timestamp="1600270035256">
       <screen x="0" y="23" width="1344" height="817" />
     </state>

@@ -100,3 +100,42 @@ console.log("finished")
 
 # 零宽空格
 \u200b （(Zero width space) characters）
+
+# 不写分号需要注意的情况
+- 以括号开头的语句
+```javascript
+(function(a){
+    console.log(a);
+})()/*这里没有被自动插入分号*/
+(function(a){
+    console.log(a);
+})()
+```
+这段代码看似两个独立执行的函数表达式，但是其实第三组括号被理解为传参，导致抛出错误。
+
+## 以数组开头的语句
+除了括号，以数组开头的语句也十分危险：
+```javascript
+var a = [[]]/*这里没有被自动插入分号*/
+[3, 2, 1, 0].forEach(e => console.log(e))
+```
+
+## 以正则表达式开头的语句
+```javascript
+var x = 1, g = {test:()=>0}, b = 1/*这里没有被自动插入分号*/
+/(a)/g.test("abc")
+console.log(RegExp.$1)
+```
+这段代码本意是声明三个变量，然后测试一个字符串中是否含有字母 a，但是因为没有自动插入分号，正则的第一个斜杠被理解成了除号，后面的意思就都变了。注意，我构造的这个例子跟上面的例子一样，同样不会抛错，凡是这一类情况，都非常致命。
+
+## 以 Template 开头的语句
+以 Template 开头的语句比较少见，但是跟正则配合时，仍然不是不可能出现：
+```javascript
+var f = function(){
+  return "";
+}
+var g = f/*这里没有被自动插入分号*/
+`Template`.match(/(a)/);
+console.log(RegExp.$1)
+```
+这段代码本意是声明函数 f，然后赋值给 g，再测试 Template 中是否含有字母 a。但是因为没有自动插入分号，函数 f 被认为跟 Template 一体的，进而被莫名其妙地执行了一次。
